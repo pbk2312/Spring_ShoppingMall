@@ -18,9 +18,9 @@ public class Item {
     private Long num;
 
     @Column(nullable = false,length = 50)
-    private String item_name; // 상풍명
+    private String itemName; // 상풍명
 
-    @Column(nullable = false,length = 30)
+    @Column(nullable = false)
     private int price; // 가격
 
     @Column(nullable = false)
